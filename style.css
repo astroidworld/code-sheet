@@ -2,16 +2,22 @@
 
 
 header{
-    width: 1200px;
-    min-height: 10px;
+    max-width: 1200px;
+    height: 100px;
     /* background-color: brown; */
-    text-align: center;
-    margin-bottom: 20px;    
+    margin: 0 auto;
+    margin-top: 10px;
+       
 
 }
+/* .code{
+    text-align: center;
+    
+} */
 header h1{
-    font-size: 70px;
+    font-size: 4rem;
     color: #fff;    
+    text-align: center;
     
 }
 
@@ -22,9 +28,10 @@ header h1{
     font-family: 'Poppins',sans-serif;
 }
 body{
-    display:flex;
-    justify-content: center;
+    /* display:flex;
+    justify-content:center;
     align-items: center;
+     */
     min-height: 100vh;
     background: #151516;
 }
@@ -35,12 +42,13 @@ body{
     flex-wrap: wrap;
     /* min-height: 100vh; */
     max-width: 1200px;
-    margin: 5px 0;
+    margin: 5px auto;
+
 }
 
 .container2 .card{
     position: relative;
-    min-width: 500px;
+    width: 30rem;
     height: 150px;
     box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
                 inset -5px -5px 15px rgba(255,255,255,0.1),
@@ -160,7 +168,8 @@ body{
 .container2 .card:nth-child(8) .box .content a
 {
     background: #e91e63;
-}.container2 .card:nth-child(9) .box .content a
+}
+.container2 .card:nth-child(9) .box .content a
 {
     background: #97dc47;
 }
